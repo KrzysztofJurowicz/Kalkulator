@@ -10,31 +10,31 @@ namespace Kaluklator
             {
 
 
-                //1. Wyświetlenie nagłowka - opis aplikacji
+                
                 Console.WriteLine("Witam w kalkulatorze");
 
-                //2. Prośba o podanie 1 liczby
+                
                 Console.WriteLine("Proszę wpisać pierwszą liczbę.");
 
-                //3. Pobranie liczby od użytkownika
+               
                 var a = WpisanaLiczba();
 
-                //4. Prośba o podanie działania
+                
                 Console.WriteLine("Prosze wpisać jaką operacje checie wykorzystać.\nObecne operacje to:'+', '-', '*', '/'.");
 
-                //5. Pobranie wybranego działania od użytkownika
+                
                 var operacje = Console.ReadLine();
 
-                //6. Prośba o podanie 2 liczby
+                
                 Console.WriteLine("Proszę wpisać drugą liczbę.");
 
-                //7. Pobranie liczby od użytkownika
+                
                 var b = WpisanaLiczba();
 
-                //8. Wykonanie obliczeń
+                
                 var rezultat = Obliczanie(a, b, operacje);
 
-                //9. Wyświetlenie wyniku użytkownikowi
+                
 
                 Console.WriteLine($"Wynik Twojego działania to: {rezultat}");
             }
