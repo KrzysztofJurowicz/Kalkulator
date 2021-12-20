@@ -61,7 +61,6 @@ namespace Kaluklator
         {
 
 
-            Console.WriteLine("Nie mozna dzielić przez 0 popraw wynik");
 
 
 
